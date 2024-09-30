@@ -1,0 +1,61 @@
+header {
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(42, 122, 228);
+}
+
+body {
+    color: white;
+    background: black;
+    font-family: "Comic Neue", cursive;
+    margin-bottom: 60px;
+}
+
+.chamada {
+    background: #1d2f15;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.chamada-texto {
+    margin-right: 8%;
+    margin-left: 3%;
+}
+
+h1, h2 {
+    font-size: 30px;
+}
+
+p {
+    margin-left: -4%;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.5%; 
+}
+
+.categoria-videos img {
+    height: 200px;
+    opacity: 0.55;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid yellow;
+}
+.outros {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.outros h2 {
+    color: rgb(164, 110, 214);
+}
+
